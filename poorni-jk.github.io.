@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poornima A - Resume</title>
+  <link rel="stylesheet" href="assets/theme1.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Profile -->
+    <div class="profile-section">
+      <img src="assets/profile.jpg" alt="Poornima A" class="profile-img">
+      <h1>Poornima A</h1>
+      <h3>AI & Machine Learning | NLP | Generative AI Intern</h3>
+    </div>
+
+    <!-- About -->
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Passionate AI enthusiast with experience in Generative AI, Natural Language Processing, 
+        and Computer Vision. Skilled in Python, SQL, Java, and prompt engineering. 
+        I love building intelligent systems and designing user-friendly digital experiences.
+      </p>
+    </section>
+
+    <!-- Experience -->
+    <section>
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Generative AI Virtual Internship – Skillible</strong> (2025)<br>
+            • Prompt optimization • Generative tasks • Basic model workflows
+        </li>
+        <li><strong>Artificial Intelligence Fundamentals – IBM SkillsBuild</strong> (2024)<br>
+            • NLP • Computer Vision • AI Ethics
+        </li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>AI Chatbot:</strong> Built using Python NLP libraries</li>
+        <li><strong>Resume Analyzer:</strong> Keyword extraction & scoring tool</li>
+        <li><strong>Image Classifier:</strong> CNN model trained on custom dataset</li>
+      </ul>
+    </section>
+
+    <!-- Skills -->
+    <section>
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <span class="skill">Python</span>
+        <span class="skill">SQL</span>
+        <span class="skill">Java</span>
+        <span class="skill">NLP</span>
+        <span class="skill">Computer Vision</span>
+        <span class="skill">Prompt Engineering</span>
+        <span class="skill">AI Fundamentals</span>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li>B.Tech Computer Science — Siddharth Institute, 2026</li>
+        <li>Intermediate MPC — Sri Chaitanya Junior College, 2022</li>
+        <li>Kendriya Vidyalaya, Tirupati — 2020</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section>
+      <h2>Contact</h2>
+      <p>Email: poornid04a@gmail.com</p>
+      <p>Phone: +91 89180 21276</p>
+      <p>Location: Tirupati, India</p>
+    </section>
+
+  </div>
+
+</body>
+</html>
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px 50px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.profile-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #3498db;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.profile-section h1 {
+  margin: 10px 0 5px 0;
+  font-size: 32px;
+  color: #2c3e50;
+}
+
+.profile-section h3 {
+  margin: 0;
+  font-weight: 400;
+  color: #555;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  border-left: 5px solid #3498db;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  color: #3498db;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill {
+  background: #e9f0ff;
+  padding: 8px 15px;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  .profile-img {
+    width: 120px;
+    height: 120px;
+  }
+}
